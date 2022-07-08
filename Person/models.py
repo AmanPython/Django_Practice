@@ -10,3 +10,6 @@ class Person(models.Model):
     class Meta:
         ordering = ['first_name']
         db_table = '"person"'
+
+    def __str__(self):
+        return self.first_name + ' ' + self.last_name
