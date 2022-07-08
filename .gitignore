@@ -1,0 +1,133 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+erp_revamp/settings.py
+*/venv/*
+.env
+.venv
+db.sqlite3
+*.xlsx
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+.env
+db.sqlite3
+error.jpg
+/logs/debug*
+
+/venv/
+
+
+accounts/populate.py
+
+lets_eduvate/settings.py
+
+req.txt
+ujjwal.txt
+/media/*
+/frontend/node_modules/*
+oms/node_modules/*
+node_modules/*
+.vscode
+
+# integrationtesting
+Reports?????????????????/
+Reports???????????????????
+Reports??????????
+Reports???????????
+integration_testing/Utilities/error????????????
+# Add any directories, files, or patterns you don't want to be tracked by version control
+### Django ###
+*.log
+*.pot
+*.pyc
+**/__pycache__/
+local_settings.py
+lets_eduvate/settings.py
+*/venv/*
+.env
+.venv
+db.sqlite3
+*.xlsx
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+*/__pycache__/
+local_settings.py
+
+.env
+db.sqlite3
+error.jpg
+
+
+
+accounts/populate.py
+
+erp_revamp/settings.py
+
+req.txt
+ujjwal.txt
+/media/*
+/frontend/node_modules/*
+oms/node_modules/*
+node_modules/*
+.vscode
+
+# integrationtesting
+Reports?????????????????/
+Reports???????????????????
+Reports??????????
+Reports???????????
+integration_testing/Utilities/error????????????
+integration_testing/Screenshots/*
+!integration_testing/Utilities/TeacherUtilities1.xlsx
+.~lock.*.xlsx#
+error.jpg
+
+lets_eduvate/settings/whoosh_index/*
+integration_testing/Screenshots/*
+error.jpg
+
+erp_revamp/settings/whoosh_index/*
+# format for gradebookcriteria excel
+!*gradebookcriteria.xlsx
+
+
+# intellegent text book
+.idea/erp_revamp.iml
+.idea/misc.xml
+erp_revamp.code-workspace
+Pipfile
+Pipfile.lock
