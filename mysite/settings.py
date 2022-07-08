@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Person',                   # <-- Add this line
+                                #python manage.py migrate
+                                #python manage.py makemigrations
 ]
 
 MIDDLEWARE = [
