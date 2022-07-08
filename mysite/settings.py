@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',        # python manage.py shell_plus --ipython
     'Person',                   # <-- Add this line
                                 #python manage.py migrate
                                 #python manage.py makemigrations
