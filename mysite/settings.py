@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
+    'django.contrib.sessions',      #./manage.py shell+
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',        # python manage.py shell_plus --ipython

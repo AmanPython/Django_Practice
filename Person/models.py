@@ -1,4 +1,6 @@
 from django.db import models
+from jinja2 import TemplateRuntimeError
+
 
 # Create your models here.
 class Person(models.Model):
@@ -35,3 +37,19 @@ class Album(models.Model):      # Avoiding the use of the reserved word clean,sa
     name = models.CharField(max_length=100,default='')
     release_date = models.DateField(default='')
     num_start = models.IntegerField(default=0)
+
+
+class Runner(models.Model):
+    MedalType = models.TextChoices('MedalType', 'Gold Silver Bronze')
+    name = models.CharField(max_length=60)
+    medal = models.CharField(blank=True, max_length=13, choices=MedalType.choices)
+
+    def __str__(self):
+        return self.name
+
+class Fruit(models.Model):
+    name = models.CharField(max_length=100, primary_key=TemplateRuntimeError)
+    color = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
